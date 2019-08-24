@@ -1,0 +1,37 @@
+table {
+	border : solid;
+	border-collapse: collapse;
+}
+td{
+	padding: 5px;
+	border: none;
+}
+input[type=text]{
+	padding: 10px;
+	width: 410px;
+	border-style: solid;
+	text-align: right;
+	font-size: 16px;
+}
+input[type=text]:disabled{
+	background-color: white;
+}
+.btn {
+	width: 100px;
+	height: 40px;
+	background-color: gold;
+    border: none;
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.opr{
+		background-color: grey;
+}
+.clr{
+	background-color: red;
+}
+.hsl{
+	background-color:blueviolet;
+}
